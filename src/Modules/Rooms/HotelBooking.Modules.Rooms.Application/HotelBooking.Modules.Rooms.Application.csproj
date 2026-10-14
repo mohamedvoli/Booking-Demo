@@ -6,6 +6,10 @@
     <ProjectReference Include="..\..\Bookings\HotelBooking.Modules.Bookings.Contracts\HotelBooking.Modules.Bookings.Contracts.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.13" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
