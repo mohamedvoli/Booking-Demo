@@ -18,6 +18,9 @@ internal sealed class GlobalExceptionHandler(
             DomainException => (StatusCodes.Status400BadRequest, "Bad Request"),
             NotFoundException => (StatusCodes.Status404NotFound, "Not Found"),
             ConflictException => (StatusCodes.Status409Conflict, "Conflict"),
+            // Thrown by minimal APIs for unreadable requests, such as malformed JSON.
+            // The title is left null so ProblemDetails fills in the standard one for its status (400, 413...).
+            BadHttpRequestException badRequest => (badRequest.StatusCode, (string?)null),
             _ => (StatusCodes.Status500InternalServerError, "Internal Server Error")
         };
 
