@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\Identity\HotelBooking.Modules.Identity.Infrastructure\HotelBooking.Modules.Identity.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Identity\HotelBooking.Modules.Identity.Presentation\HotelBooking.Modules.Identity.Presentation.csproj" />
+    <ProjectReference Include="..\..\Modules\Rooms\HotelBooking.Modules.Rooms.Infrastructure\HotelBooking.Modules.Rooms.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Rooms\HotelBooking.Modules.Rooms.Presentation\HotelBooking.Modules.Rooms.Presentation.csproj" />
+    <ProjectReference Include="..\..\Modules\Bookings\HotelBooking.Modules.Bookings.Infrastructure\HotelBooking.Modules.Bookings.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Bookings\HotelBooking.Modules.Bookings.Presentation\HotelBooking.Modules.Bookings.Presentation.csproj" />
+  </ItemGroup>
+
+</Project>

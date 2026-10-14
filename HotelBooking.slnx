@@ -1,0 +1,31 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Host/">
+    <Project Path="src/Host/HotelBooking.Api/HotelBooking.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Bookings/">
+    <Project Path="src/Modules/Bookings/HotelBooking.Modules.Bookings.Application/HotelBooking.Modules.Bookings.Application.csproj" />
+    <Project Path="src/Modules/Bookings/HotelBooking.Modules.Bookings.Contracts/HotelBooking.Modules.Bookings.Contracts.csproj" />
+    <Project Path="src/Modules/Bookings/HotelBooking.Modules.Bookings.Domain/HotelBooking.Modules.Bookings.Domain.csproj" />
+    <Project Path="src/Modules/Bookings/HotelBooking.Modules.Bookings.Infrastructure/HotelBooking.Modules.Bookings.Infrastructure.csproj" />
+    <Project Path="src/Modules/Bookings/HotelBooking.Modules.Bookings.Presentation/HotelBooking.Modules.Bookings.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Identity/">
+    <Project Path="src/Modules/Identity/HotelBooking.Modules.Identity.Application/HotelBooking.Modules.Identity.Application.csproj" />
+    <Project Path="src/Modules/Identity/HotelBooking.Modules.Identity.Contracts/HotelBooking.Modules.Identity.Contracts.csproj" />
+    <Project Path="src/Modules/Identity/HotelBooking.Modules.Identity.Domain/HotelBooking.Modules.Identity.Domain.csproj" />
+    <Project Path="src/Modules/Identity/HotelBooking.Modules.Identity.Infrastructure/HotelBooking.Modules.Identity.Infrastructure.csproj" />
+    <Project Path="src/Modules/Identity/HotelBooking.Modules.Identity.Presentation/HotelBooking.Modules.Identity.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Rooms/">
+    <Project Path="src/Modules/Rooms/HotelBooking.Modules.Rooms.Application/HotelBooking.Modules.Rooms.Application.csproj" />
+    <Project Path="src/Modules/Rooms/HotelBooking.Modules.Rooms.Contracts/HotelBooking.Modules.Rooms.Contracts.csproj" />
+    <Project Path="src/Modules/Rooms/HotelBooking.Modules.Rooms.Domain/HotelBooking.Modules.Rooms.Domain.csproj" />
+    <Project Path="src/Modules/Rooms/HotelBooking.Modules.Rooms.Infrastructure/HotelBooking.Modules.Rooms.Infrastructure.csproj" />
+    <Project Path="src/Modules/Rooms/HotelBooking.Modules.Rooms.Presentation/HotelBooking.Modules.Rooms.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/HotelBooking.Shared/HotelBooking.Shared.csproj" />
+  </Folder>
+</Solution>

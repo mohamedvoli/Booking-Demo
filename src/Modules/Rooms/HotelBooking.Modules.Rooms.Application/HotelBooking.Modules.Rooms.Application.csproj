@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\HotelBooking.Modules.Rooms.Domain\HotelBooking.Modules.Rooms.Domain.csproj" />
+    <ProjectReference Include="..\HotelBooking.Modules.Rooms.Contracts\HotelBooking.Modules.Rooms.Contracts.csproj" />
+    <ProjectReference Include="..\..\Bookings\HotelBooking.Modules.Bookings.Contracts\HotelBooking.Modules.Bookings.Contracts.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
